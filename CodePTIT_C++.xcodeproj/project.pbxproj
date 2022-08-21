@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29A728AB5EF9007A37A0 /* Ex1.cpp */; };
-		A40C29E228AE7A46007A37A0 /* CPP0152_chia_du.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29E128AE7A46007A37A0 /* CPP0152_chia_du.cpp */; };
+		A478ED3E28AFCCA900DFBE3B /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A478ED3D28AFCCA900DFBE3B /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp */; };
+		A478ED5228B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +26,9 @@
 
 /* Begin PBXFileReference section */
 		A40C29A728AB5EF9007A37A0 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
-		A40C29E128AE7A46007A37A0 /* CPP0152_chia_du.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0152_chia_du.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A478ED3D28AFCCA900DFBE3B /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp; sourceTree = "<group>"; };
+		A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0327_chia_het_cho_5.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,8 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A40C29E128AE7A46007A37A0 /* CPP0152_chia_du.cpp */,
+				A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */,
+				A478ED3D28AFCCA900DFBE3B /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp */,
 				A40C29A728AB5EF9007A37A0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
 			);
@@ -115,7 +118,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */,
-				A40C29E228AE7A46007A37A0 /* CPP0152_chia_du.cpp in Sources */,
+				A478ED3E28AFCCA900DFBE3B /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp in Sources */,
+				A478ED5228B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

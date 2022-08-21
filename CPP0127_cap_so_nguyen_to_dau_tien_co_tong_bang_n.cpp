@@ -14,25 +14,16 @@ int sang[1000001];
 void oneTime(){
     ui n;
     cin>>n;
-    for(ui i=2;i<1000001;i++){
-        ui j;
-        if(sang[i]==1){
-            for(j=i;j<1000001;j++){
-                if(j>n) break;
-                if(sang[j]==1){
-                    if(j+i==n){
-                        printf("%u %u\n",i,j);
-                        break;
-                    }
-                }
-            }
-        }
-        if(j+i==n) break;
-        if(i>n/2+1){
-            printf("-1\n");
+    bool mark=true;
+    
+    for(int i=0;i<n/2+1;i++){
+        if(sang[i]==1 && sang[n-i]==1){
+            printf("%d %d\n",i,n-i);
+            mark=false;
             break;
         }
     }
+    if(mark==true) printf("-1\n");
 }
 
 int main(){

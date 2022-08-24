@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29A728AB5EF9007A37A0 /* Ex1.cpp */; };
 		A478ED5228B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */; };
+		A4ADD8BE28B67DF000A9351E /* CPP0203_so_nho_nhat_chua_xuat_hien.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4ADD8BD28B67DEF00A9351E /* CPP0203_so_nho_nhat_chua_xuat_hien.cpp */; };
+		A4ADD8C028B67DFF00A9351E /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4ADD8BF28B67DFF00A9351E /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp */; };
+		A4ADD8C228B67E0D00A9351E /* CPP0501_cau_truc_diem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4ADD8C128B67E0C00A9351E /* CPP0501_cau_truc_diem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		A40C29A728AB5EF9007A37A0 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0327_chia_het_cho_5.cpp; sourceTree = "<group>"; };
+		A4ADD8BD28B67DEF00A9351E /* CPP0203_so_nho_nhat_chua_xuat_hien.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0203_so_nho_nhat_chua_xuat_hien.cpp; sourceTree = "<group>"; };
+		A4ADD8BF28B67DFF00A9351E /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp; sourceTree = "<group>"; };
+		A4ADD8C128B67E0C00A9351E /* CPP0501_cau_truc_diem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0501_cau_truc_diem.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,9 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
+				A4ADD8C128B67E0C00A9351E /* CPP0501_cau_truc_diem.cpp */,
+				A4ADD8BF28B67DFF00A9351E /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp */,
+				A4ADD8BD28B67DEF00A9351E /* CPP0203_so_nho_nhat_chua_xuat_hien.cpp */,
 				A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */,
 				A40C29A728AB5EF9007A37A0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
@@ -114,7 +123,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4ADD8BE28B67DF000A9351E /* CPP0203_so_nho_nhat_chua_xuat_hien.cpp in Sources */,
+				A4ADD8C028B67DFF00A9351E /* CPP0127_cap_so_nguyen_to_dau_tien_co_tong_bang_n.cpp in Sources */,
 				A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */,
+				A4ADD8C228B67E0D00A9351E /* CPP0501_cau_truc_diem.cpp in Sources */,
 				A478ED5228B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

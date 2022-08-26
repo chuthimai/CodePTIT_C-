@@ -6,6 +6,7 @@
 //
 
 #include <bits/stdc++.h>
+using namespace <#identifier#>;
 using namespace std;
 
 int main(){

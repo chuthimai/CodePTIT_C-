@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29A728AB5EF9007A37A0 /* Ex1.cpp */; };
 		A478ED5228B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */; };
+		A483FE3C28B9013700B1C66F /* CPP0230_ma_tran_nhi_phan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A483FE3B28B9013700B1C66F /* CPP0230_ma_tran_nhi_phan.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		A40C29A728AB5EF9007A37A0 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0327_chia_het_cho_5.cpp; sourceTree = "<group>"; };
+		A483FE3B28B9013700B1C66F /* CPP0230_ma_tran_nhi_phan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0230_ma_tran_nhi_phan.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
+				A483FE3B28B9013700B1C66F /* CPP0230_ma_tran_nhi_phan.cpp */,
 				A478ED5128B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp */,
 				A40C29A728AB5EF9007A37A0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
@@ -114,6 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A483FE3C28B9013700B1C66F /* CPP0230_ma_tran_nhi_phan.cpp in Sources */,
 				A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */,
 				A478ED5228B122BD00DFBE3B /* CPP0327_chia_het_cho_5.cpp in Sources */,
 			);

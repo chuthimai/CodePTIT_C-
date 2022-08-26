@@ -51,5 +51,6 @@ int main(){
     cin>>n;
     for(int i=0;i<n;i++) oneTime();
     printf("\n");
+    printf("\n");
 }
  

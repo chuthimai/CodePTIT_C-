@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29A728AB5EF9007A37A0 /* Ex1.cpp */; };
-		A42E01D128BF9CA800570257 /* CPP0332_dia_chi_emai_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42E01D028BF9CA800570257 /* CPP0332_dia_chi_emai_1.cpp */; };
+		A42E01D328BFA24D00570257 /* CPP0339_dau_cuoi_giong_nhau.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42E01D228BFA24D00570257 /* CPP0339_dau_cuoi_giong_nhau.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		A40C29A728AB5EF9007A37A0 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
-		A42E01D028BF9CA800570257 /* CPP0332_dia_chi_emai_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0332_dia_chi_emai_1.cpp; sourceTree = "<group>"; };
+		A42E01D228BFA24D00570257 /* CPP0339_dau_cuoi_giong_nhau.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0339_dau_cuoi_giong_nhau.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,7 +43,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A42E01D028BF9CA800570257 /* CPP0332_dia_chi_emai_1.cpp */,
+				A42E01D228BFA24D00570257 /* CPP0339_dau_cuoi_giong_nhau.cpp */,
 				A40C29A728AB5EF9007A37A0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
 			);
@@ -114,8 +114,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42E01D328BFA24D00570257 /* CPP0339_dau_cuoi_giong_nhau.cpp in Sources */,
 				A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */,
-				A42E01D128BF9CA800570257 /* CPP0332_dia_chi_emai_1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

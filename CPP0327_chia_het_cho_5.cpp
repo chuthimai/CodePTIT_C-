@@ -16,10 +16,10 @@ void oneTime(){
         if(num[i]=='1') r=(2*r+1)%5;
         else r=(2*r)%5;
     }
-    
+
     if(r==0) printf("Yes\n");
     else printf("No\n");
-    
+
 }
 
 int main(){

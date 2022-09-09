@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29A728AB5EF9007A37A0 /* Ex1.cpp */; };
-		A475CB1728CB7E650010BB67 /* CPP0450_phan_tu_dau_tien_lap_lai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A475CB1628CB7E650010BB67 /* CPP0450_phan_tu_dau_tien_lap_lai.cpp */; };
+		A475CB1928CB81250010BB67 /* CPP0502_cau_truc_thi_sinh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A475CB1828CB81250010BB67 /* CPP0502_cau_truc_thi_sinh.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		A40C29A728AB5EF9007A37A0 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A475CB1628CB7E650010BB67 /* CPP0450_phan_tu_dau_tien_lap_lai.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0450_phan_tu_dau_tien_lap_lai.cpp; sourceTree = "<group>"; };
+		A475CB1828CB81250010BB67 /* CPP0502_cau_truc_thi_sinh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0502_cau_truc_thi_sinh.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A475CB1628CB7E650010BB67 /* CPP0450_phan_tu_dau_tien_lap_lai.cpp */,
+				A475CB1828CB81250010BB67 /* CPP0502_cau_truc_thi_sinh.cpp */,
 				A40C29A728AB5EF9007A37A0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
 			);
@@ -114,7 +114,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A475CB1728CB7E650010BB67 /* CPP0450_phan_tu_dau_tien_lap_lai.cpp in Sources */,
+				A475CB1928CB81250010BB67 /* CPP0502_cau_truc_thi_sinh.cpp in Sources */,
 				A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

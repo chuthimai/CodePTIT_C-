@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29A728AB5EF9007A37A0 /* Ex1.cpp */; };
-		A475CB2328CB93D70010BB67 /* CPP0517_danh_sach_nhan_vien.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A475CB2228CB93D70010BB67 /* CPP0517_danh_sach_nhan_vien.cpp */; };
+		A475CB2D28CB9EC00010BB67 /* CPP0743_dao_tu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A475CB2C28CB9EC00010BB67 /* CPP0743_dao_tu.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		A40C29A728AB5EF9007A37A0 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A475CB2228CB93D70010BB67 /* CPP0517_danh_sach_nhan_vien.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0517_danh_sach_nhan_vien.cpp; sourceTree = "<group>"; };
+		A475CB2C28CB9EC00010BB67 /* CPP0743_dao_tu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0743_dao_tu.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A475CB2228CB93D70010BB67 /* CPP0517_danh_sach_nhan_vien.cpp */,
+				A475CB2C28CB9EC00010BB67 /* CPP0743_dao_tu.cpp */,
 				A40C29A728AB5EF9007A37A0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
 			);
@@ -114,8 +114,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A475CB2328CB93D70010BB67 /* CPP0517_danh_sach_nhan_vien.cpp in Sources */,
 				A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */,
+				A475CB2D28CB9EC00010BB67 /* CPP0743_dao_tu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

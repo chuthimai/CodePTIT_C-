@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40C29A728AB5EF9007A37A0 /* Ex1.cpp */; };
-		A475CB2F28CC1E050010BB67 /* CPP0801_sao_chep_tep_tin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A475CB2E28CC1E050010BB67 /* CPP0801_sao_chep_tep_tin.cpp */; };
+		A475CB3528CE3B380010BB67 /* CPP0601_khai_bao_lop_sinh_vien_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A475CB3428CE3B380010BB67 /* CPP0601_khai_bao_lop_sinh_vien_1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		A40C29A728AB5EF9007A37A0 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A475CB2E28CC1E050010BB67 /* CPP0801_sao_chep_tep_tin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0801_sao_chep_tep_tin.cpp; sourceTree = "<group>"; };
+		A475CB3428CE3B380010BB67 /* CPP0601_khai_bao_lop_sinh_vien_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0601_khai_bao_lop_sinh_vien_1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A475CB2E28CC1E050010BB67 /* CPP0801_sao_chep_tep_tin.cpp */,
+				A475CB3428CE3B380010BB67 /* CPP0601_khai_bao_lop_sinh_vien_1.cpp */,
 				A40C29A728AB5EF9007A37A0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
 			);
@@ -114,7 +114,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A475CB2F28CC1E050010BB67 /* CPP0801_sao_chep_tep_tin.cpp in Sources */,
+				A475CB3528CE3B380010BB67 /* CPP0601_khai_bao_lop_sinh_vien_1.cpp in Sources */,
 				A40C29A828AB5EF9007A37A0 /* Ex1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

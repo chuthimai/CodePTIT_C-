@@ -34,7 +34,7 @@ void nhapThongTinSV(SinhVien &a){
 }
 
 void inThongTinSV(SinhVien a){
-     cout<<a.MSV<< ' '<< a.name<< ' '<< a.lop<< ' '<< a.birth[0]<<'/'<< a.birth[1]<< '/'<< a.birth[2]<<' ';
+    cout<<a.MSV<< ' '<< a.name<< ' '<< a.lop<< ' '<< a.birth[0]<<'/'<< a.birth[1]<< '/'<< a.birth[2]<<' ';
     printf("%.2f\n",a.GPA);
 }
 

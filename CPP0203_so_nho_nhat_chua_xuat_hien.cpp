@@ -18,7 +18,8 @@ void oneTime(){
         arr.push_back(a);
     }
     sort(arr.begin(), arr.end());
-    arr.erase(unique(arr.begin(), arr.end()), arr.end());
+    auto arr2=unique(arr.begin(), arr.end());
+    arr.erase( arr2,arr.end());
     
     unsigned int m=1;
     for(int i=0;i<arr.size();i++){

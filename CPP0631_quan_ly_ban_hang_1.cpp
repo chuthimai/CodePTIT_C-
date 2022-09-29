@@ -28,7 +28,7 @@ string numToString(int a){
 
 class KhachHang{
     
-protected:
+public:
     string code="KH";
     string name;
     string sex;
@@ -54,8 +54,7 @@ public:
     }
     
     friend istream& operator >>(istream& in, KhachHang &customer){
-        customer.code = count_cus++;
-        in.ignore();
+//        in.ignore();
         getline(in, customer.name);
         in >>customer.sex >>customer.date;
         in.ignore();
@@ -69,7 +68,7 @@ public:
 
 class MatHang{
     
-protected:
+public:
     string code="MH";
     string name;
     string unit;
@@ -81,7 +80,7 @@ public:
         code = code + numToString(count_item++);
     }
     friend istream& operator >>(istream& in, MatHang &item){
-        item.code = count_item++;
+        
         in.ignore();
         getline(in, item.name);
         in >>item.unit >>item.price_buy >>item.price_sell;
@@ -101,33 +100,54 @@ private:
     string code_customer;
     string code_item;
     int amount;
+    int sum;
 
 public:
     HoaDon(){
         code = code + numToString(count_bill++);
     }
     friend istream& operator >>(istream& in, HoaDon &bill){
-        bill.code = count_bill++;
+        
         in>>bill.code_customer >>bill.code_item;
         in>>bill.amount;
         return in;
     }
     
     friend ostream& operator <<(ostream& out, HoaDon bill){
+        //kt ma khach hang co trung khong
+        for(int i=0; i<N; i++){
+            if(dskh[i].code==bill.code_customer){
+                bill.KhachHang::name = dskh[i].name;
+                bill.KhachHang::address = dskh[i].address;
+                break;
+            }
+        }
+        //kt ma mat hang co trung khong
+        for(int i=0; i<M; i++){
+            if(dsmh[i].code==bill.code_item){
+                bill.MatHang::name = dsmh[i].name;
+                bill.unit = dsmh[i].unit;
+                bill.price_buy  = dsmh[i].price_buy;
+                bill.price_sell = dsmh[i].price_sell;
+                bill.sum = bill.price_sell*bill.amount;
+            }
+        }
+        
         out <<bill.code <<' ' << bill.KhachHang::name <<' ' <<bill.KhachHang::address <<' ';
         out <<bill.MatHang::name <<' ' <<bill.unit <<' ' <<bill.price_buy <<' '<<bill.price_sell <<' ';
-        out <<bill.amount<<' ';
+        out <<bill.amount<<' '<<bill.sum <<endl;
         return out;
     }
 };
 
 
 int main(){
-    KhachHang dskh[25];
-    MatHang dsmh[45];
+//    KhachHang dskh[25];
+//    MatHang dsmh[45];
     HoaDon dshd[105];
-    int N,M,K,i;
+    int K,i;
     cin >> N;
+    cin.ignore();
     for(i=0;i<N;i++) cin >> dskh[i];
     cin >> M;
     for(i=0;i<M;i++) cin >> dsmh[i];

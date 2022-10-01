@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41605FA28D6D30F00F9CED0 /* Ex1.cpp */; };
 		A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */; };
-		A41B08FC28E87586002CC99F /* CPP0723_tinh_giai_thua_cac_chu_so.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B08FB28E87586002CC99F /* CPP0723_tinh_giai_thua_cac_chu_so.cpp */; };
+		A41B08FE28E879FA002CC99F /* CPP0741_tinh_luy_thua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B08FD28E879FA002CC99F /* CPP0741_tinh_luy_thua.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		A41605FA28D6D30F00F9CED0 /* Ex1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0631_quan_ly_ban_hang_1.cpp; sourceTree = "<group>"; };
-		A41B08FB28E87586002CC99F /* CPP0723_tinh_giai_thua_cac_chu_so.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0723_tinh_giai_thua_cac_chu_so.cpp; sourceTree = "<group>"; };
+		A41B08FD28E879FA002CC99F /* CPP0741_tinh_luy_thua.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0741_tinh_luy_thua.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,7 +45,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A41B08FB28E87586002CC99F /* CPP0723_tinh_giai_thua_cac_chu_so.cpp */,
+				A41B08FD28E879FA002CC99F /* CPP0741_tinh_luy_thua.cpp */,
 				A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */,
 				A41605FA28D6D30F00F9CED0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
@@ -118,7 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */,
-				A41B08FC28E87586002CC99F /* CPP0723_tinh_giai_thua_cac_chu_so.cpp in Sources */,
+				A41B08FE28E879FA002CC99F /* CPP0741_tinh_luy_thua.cpp in Sources */,
 				A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41605FA28D6D30F00F9CED0 /* Ex1.cpp */; };
 		A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */; };
+		A41B092828E9D60F002CC99F /* CPP0335_tim_so_lon_nhat_trong_xau.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B092728E9D60F002CC99F /* CPP0335_tim_so_lon_nhat_trong_xau.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		A41605FA28D6D30F00F9CED0 /* Ex1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0631_quan_ly_ban_hang_1.cpp; sourceTree = "<group>"; };
+		A41B092728E9D60F002CC99F /* CPP0335_tim_so_lon_nhat_trong_xau.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0335_tim_so_lon_nhat_trong_xau.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
+				A41B092728E9D60F002CC99F /* CPP0335_tim_so_lon_nhat_trong_xau.cpp */,
 				A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */,
 				A41605FA28D6D30F00F9CED0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
@@ -114,6 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41B092828E9D60F002CC99F /* CPP0335_tim_so_lon_nhat_trong_xau.cpp in Sources */,
 				A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */,
 				A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */,
 			);

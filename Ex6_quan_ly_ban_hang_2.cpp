@@ -1,8 +1,8 @@
 ////
-////  CPP0631_quan_ly_ban_hang_1.cpp
+////  Ex6_quan_ly_ban_hang_2.cpp
 ////  CodePTIT_C++
 ////
-////  Created by Chu Mai on 28/09/2022.
+////  Created by Chu Mai on 02/10/2022.
 ////
 //
 //#include <bits/stdc++.h>
@@ -22,12 +22,12 @@
 //    }
 //    while(num.length()<3) num = "0"+num;
 //    return num;
-//    
+//
 //}
 //
 //
 //class KhachHang{
-//    
+//
 //public:
 //    string code="KH";
 //    string name;
@@ -35,7 +35,7 @@
 //    string date;
 //    vector<string> ddmmyy;
 //    string address;
-//    
+//
 //public:
 //    KhachHang(){
 //        code = code + numToString(count_cus++);
@@ -52,22 +52,22 @@
 //            }
 //        }
 //    }
-//    
+//
 //    friend istream& operator >>(istream& in, KhachHang &customer){
 ////        in.ignore();
 //        getline(in, customer.name);
 //        in >>customer.sex >>customer.date;
 //        in.ignore();
 //        getline(in, customer.address);
-//        
+//
 //        return in;
 //    }
-//    
+//
 //};
 //
 //
 //class MatHang{
-//    
+//
 //public:
 //    string code="MH";
 //    string name;
@@ -80,11 +80,11 @@
 //        code = code + numToString(count_item++);
 //    }
 //    friend istream& operator >>(istream& in, MatHang &item){
-//        
+//
 //        in.ignore();
 //        getline(in, item.name);
 //        in >>item.unit >>item.price_buy >>item.price_sell;
-//        
+//
 //        return in;
 //    }
 //};
@@ -100,19 +100,21 @@
 //    string code_customer;
 //    string code_item;
 //    int amount;
+//    int profit;
 //    int sum;
 //
 //public:
 //    HoaDon(){
 //        code = code + numToString(count_bill++);
 //    }
+//    friend void sapxep(HoaDon dshd[105], int K);
 //    friend istream& operator >>(istream& in, HoaDon &bill){
-//        
+//
 //        in>>bill.code_customer >>bill.code_item;
 //        in>>bill.amount;
 //        return in;
 //    }
-//    
+//
 //    friend ostream& operator <<(ostream& out, HoaDon bill){
 //        //kt ma khach hang co trung khong
 //        for(int i=0; i<N; i++){
@@ -132,13 +134,24 @@
 //                bill.sum = bill.price_sell*bill.amount;
 //            }
 //        }
-//        
+//
 //        out <<bill.code <<' ' << bill.KhachHang::name <<' ' <<bill.KhachHang::address <<' ';
-//        out <<bill.MatHang::name <<' ' <<bill.unit <<' ' <<bill.price_buy <<' '<<bill.price_sell <<' ';
+//        out <<bill.MatHang::name <<' ';
 //        out <<bill.amount<<' '<<bill.sum <<endl;
 //        return out;
 //    }
 //};
+//
+//
+//void sapxep(HoaDon dshd[105], int K){
+//    for(int i=0;i<K;i++){
+//        for(int j=i+1;j<K;j++){
+//            if(dshd[j].sum>dshd[i].sum){
+//                
+//            }
+//        }
+//    }
+//}
 //
 //
 //int main(){
@@ -153,6 +166,8 @@
 //    for(i=0;i<M;i++) cin >> dsmh[i];
 //    cin >> K;
 //    for(i=0;i<K;i++) cin >> dshd[i];
+//
+//    sapxep(dshd, K);
 //    
 //    for(i=0;i<K;i++) cout << dshd[i];
 //    return 0;

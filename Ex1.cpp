@@ -7,31 +7,46 @@
 //
 //#include<bits/stdc++.h>
 //using namespace std;
-
-
+//
+//class DaThuc{
+//private:
+//    int a, b, c, d;
+//public:
+//    DaThuc(){
+//        a = 0;
+//        b = 0;
+//        c = 0;
+//        d = 0;
+//        
+//    }
+//    
+//    void hien_thi(){
+//        if(a!=0) cout<<a<<"x^3";
+//        if(b!=0) cout<<"+"<<b<<"x^2";
+//        if(c!=0) cout<<"+"<<c<<"x";
+//        if(d!=0) cout<<"+"<<d;
+//        printf("\n");
+//    }
+//    
+//    DaThuc tinh_tong(DaThuc da_thuc){
+//        DaThuc tong;
+//        tong.a = a + da_thuc.a;
+//        tong.b = b + da_thuc.b;
+//        tong.c = c + da_thuc.c;
+//        tong.d = d + da_thuc.d;
+//        return tong;
+//    }
+//    
+//    void nhap(){
+//        cin>>a >>b >>c >>d;
+//    }
+//    
+//};
+//
 //int main(){
-//    int n; cin>>n;
-//    vector<int> arr, subArr;
-//    for(int i=0;i<n;i++){
-//        int a; cin>>a;
-//        arr.push_back(a);
-//    }
-//
-//    int l,r;
-//    cin>>l>>r;
-//
-//    subArr.push_back(1);
-//    for(int i=l+1;i<r;i++){
-//        if(arr[i]>arr[i-1]) subArr.push_back(1);
-//        else if(arr[i]<arr[i-1]) subArr.push_back(0);
-//    }
-//
-//
-//    bool mountain=true;
-//    for(int i=0;i<subArr.size();i++){
-//        if(subArr[i]>subArr[i-1]) mountain=false;
-//    }
-//
-//    if(mountain==true) printf("Yes\n");
-//    else printf("No\n");
+//    DaThuc da_thuc_1, da_thuc_2, da_thuc_tong;
+//    da_thuc_1.nhap();
+//    da_thuc_2.nhap();
+//    da_thuc_tong = da_thuc_1.tinh_tong(da_thuc_2);
+//    da_thuc_tong.hien_thi();
 //}

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A40BF7E628F26AD700D3EA59 /* CPP0712_liet_ke_to_hop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40BF7E528F26AD700D3EA59 /* CPP0712_liet_ke_to_hop.cpp */; };
+		A40BF7E828F27AFE00D3EA59 /* CPP0418_hop_va_giao_cua_hai_day_so_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40BF7E728F27AFE00D3EA59 /* CPP0418_hop_va_giao_cua_hai_day_so_1.cpp */; };
 		A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41605FA28D6D30F00F9CED0 /* Ex1.cpp */; };
 		A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */; };
 		A41B091828E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B091728E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp */; };
@@ -27,7 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A40BF7E528F26AD700D3EA59 /* CPP0712_liet_ke_to_hop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0712_liet_ke_to_hop.cpp; sourceTree = "<group>"; };
+		A40BF7E728F27AFE00D3EA59 /* CPP0418_hop_va_giao_cua_hai_day_so_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0418_hop_va_giao_cua_hai_day_so_1.cpp; sourceTree = "<group>"; };
 		A41605FA28D6D30F00F9CED0 /* Ex1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0631_quan_ly_ban_hang_1.cpp; sourceTree = "<group>"; };
 		A41B091728E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex6_quan_ly_ban_hang_2.cpp; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A40BF7E528F26AD700D3EA59 /* CPP0712_liet_ke_to_hop.cpp */,
+				A40BF7E728F27AFE00D3EA59 /* CPP0418_hop_va_giao_cua_hai_day_so_1.cpp */,
 				A41B092928E9D6D7002CC99F /* demo.cpp */,
 				A41B091728E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp */,
 				A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */,
@@ -126,7 +126,7 @@
 				A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */,
 				A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */,
 				A41B092A28E9D6D7002CC99F /* demo.cpp in Sources */,
-				A40BF7E628F26AD700D3EA59 /* CPP0712_liet_ke_to_hop.cpp in Sources */,
+				A40BF7E828F27AFE00D3EA59 /* CPP0418_hop_va_giao_cua_hai_day_so_1.cpp in Sources */,
 				A41B091828E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,6 +19,7 @@ int main(){
     for(auto i:arr){
         cout<<i.first<<" "<<i.second<<endl;
     }
+    file.close();
 }
 
 

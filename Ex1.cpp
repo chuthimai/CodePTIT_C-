@@ -1,52 +1,71 @@
-//
-//  Ex1.cpp
-//  CodePTIT_C++
-//
-//  Created by Chu Mai on 16/08/2022.
-//
-//
-//#include<bits/stdc++.h>
+////
+////  Ex1.cpp
+////  CodePTIT_C++
+////
+////  Created by Chu Mai on 16/08/2022.
+////
+////
+//#include <bits/stdc++.h>
 //using namespace std;
 //
-//class DaThuc{
-//private:
-//    int a, b, c, d;
+//int stt_theloai=0, stt_phim=0;
+//
+//class TheLoai{
+//protected:
+//    int stt;
+//    string name;
 //public:
-//    DaThuc(){
-//        a = 0;
-//        b = 0;
-//        c = 0;
-//        d = 0;
-//        
+//    friend istream& operator >>(istream& in, TheLoai &item){
+//        item.stt = ++stt_theloai;
+//        getline(in, item.name);
+//        return in;
 //    }
-//    
-//    void hien_thi(){
-//        if(a!=0) cout<<a<<"x^3";
-//        if(b!=0) cout<<"+"<<b<<"x^2";
-//        if(c!=0) cout<<"+"<<c<<"x";
-//        if(d!=0) cout<<"+"<<d;
-//        printf("\n");
-//    }
-//    
-//    DaThuc tinh_tong(DaThuc da_thuc){
-//        DaThuc tong;
-//        tong.a = a + da_thuc.a;
-//        tong.b = b + da_thuc.b;
-//        tong.c = c + da_thuc.c;
-//        tong.d = d + da_thuc.d;
-//        return tong;
-//    }
-//    
-//    void nhap(){
-//        cin>>a >>b >>c >>d;
-//    }
-//    
+//    friend void process(TheLoai tl[100], int n, Phim p[10000], int m);
 //};
 //
+//class Phim{
+//protected:
+//    int stt;
+//    string theloai;
+//    string date;
+//    string name;
+//    int ep;
+//public:
+//    friend istream& operator >>(istream& in, Phim &item){
+//        stt_phim++;
+//        in>>item.theloai;
+//        in.ignore();
+//        getline(in, item.date);
+//        getline(in, item.name);
+//        in>>item.ep;
+//        return in;
+//    }
+//    
+//    friend ostream& operator <<(ostream& out,Phim item){
+//        out<<"P"<<item.stt<<" "<<item.theloai<<" "<<item.date<<" "<<item.name<<" "<<item.ep<<endl;
+//        return out;
+//    }
+//    friend void process(TheLoai tl[100], int n, Phim p[10000], int m);
+//};
+//
+//void process(TheLoai tl[100], int n, Phim p[1000], int m){
+//    
+//}
+//
 //int main(){
-//    DaThuc da_thuc_1, da_thuc_2, da_thuc_tong;
-//    da_thuc_1.nhap();
-//    da_thuc_2.nhap();
-//    da_thuc_tong = da_thuc_1.tinh_tong(da_thuc_2);
-//    da_thuc_tong.hien_thi();
+//    int n, m;
+//    cin >> n >> m;
+//    cin.ignore();
+//    TheLoai tl[100];
+//    Phim p[1000];
+//    for(int i=0; i<n; i++){
+//        cin >> tl[i];
+//    }
+//    for(int i=0; i<m; i++){
+//        cin >> p[i];
+//    }
+//    process(tl, n, p, m);
+//    for(int i=0; i<m; i++){
+//        cout << p[i];
+//    }
 //}

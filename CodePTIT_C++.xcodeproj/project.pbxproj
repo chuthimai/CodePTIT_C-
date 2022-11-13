@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A40BF7EE28F2C86400D3EA59 /* CPP0426_sap_xep_xen_ke_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40BF7ED28F2C86400D3EA59 /* CPP0426_sap_xep_xen_ke_2.cpp */; };
-		A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41605FA28D6D30F00F9CED0 /* Ex1.cpp */; };
 		A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */; };
 		A41B091828E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B091728E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp */; };
 		A41B092A28E9D6D7002CC99F /* demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A41B092928E9D6D7002CC99F /* demo.cpp */; };
+		A4E95F84291DF49B005297E8 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4E95F83291DF49B005297E8 /* Ex1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A40BF7ED28F2C86400D3EA59 /* CPP0426_sap_xep_xen_ke_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0426_sap_xep_xen_ke_2.cpp; sourceTree = "<group>"; };
-		A41605FA28D6D30F00F9CED0 /* Ex1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPP0631_quan_ly_ban_hang_1.cpp; sourceTree = "<group>"; };
 		A41B091728E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex6_quan_ly_ban_hang_2.cpp; sourceTree = "<group>"; };
 		A41B092928E9D6D7002CC99F /* demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo.cpp; sourceTree = "<group>"; };
 		A43AD2C728A94DE20001B20B /* CodePTIT_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodePTIT_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E95F83291DF49B005297E8 /* Ex1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,11 +47,10 @@
 		A43AD2BE28A94DE20001B20B = {
 			isa = PBXGroup;
 			children = (
-				A40BF7ED28F2C86400D3EA59 /* CPP0426_sap_xep_xen_ke_2.cpp */,
+				A4E95F83291DF49B005297E8 /* Ex1.cpp */,
 				A41B092928E9D6D7002CC99F /* demo.cpp */,
 				A41B091728E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp */,
 				A41B08F128E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp */,
-				A41605FA28D6D30F00F9CED0 /* Ex1.cpp */,
 				A43AD2C828A94DE20001B20B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,10 +120,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40BF7EE28F2C86400D3EA59 /* CPP0426_sap_xep_xen_ke_2.cpp in Sources */,
-				A41605FB28D6D30F00F9CED0 /* Ex1.cpp in Sources */,
 				A41B08F228E4A4B4002CC99F /* CPP0631_quan_ly_ban_hang_1.cpp in Sources */,
 				A41B092A28E9D6D7002CC99F /* demo.cpp in Sources */,
+				A4E95F84291DF49B005297E8 /* Ex1.cpp in Sources */,
 				A41B091828E92D10002CC99F /* Ex6_quan_ly_ban_hang_2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
